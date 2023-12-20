@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reverb Time Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <label for="bpm">Enter BPM:</label>
+    <input value="140" type="number" id="bpmInput">
+    <button onclick="displayResults()">Calculate</button>
+
+    <div class="results">
+      <h2>Delays:</h2>
+      <div id="delays"></div>
+
+      <h2>Frequencies:</h2>
+      <div id="frequencies"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
